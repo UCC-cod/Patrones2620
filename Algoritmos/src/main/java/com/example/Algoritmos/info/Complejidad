@@ -1,0 +1,17 @@
+Comparación de complejidad algorítmica
+
+Búsqueda Lineal: O(n)
+Revisa los elementos uno a uno hasta encontrar el dato.
+Su tiempo aumenta proporcionalmente al tamaño de la lista.
+
+Búsqueda Binaria: O(log n)
+Requiere que los datos estén ordenados.
+En cada paso descarta la mitad de los elementos, por lo que es mucho más rápida para grandes volúmenes de datos.
+
+Ordenamiento Burbuja (Bubble Sort): O(n²)
+Compara e intercambia elementos repetidamente.
+Es fácil de implementar, pero poco eficiente cuando la cantidad de datos es grande.
+
+Conclusión:
+Para listas grandes, la búsqueda binaria es mucho más eficiente que la búsqueda lineal,
+mientras que el ordenamiento por burbuja es el más costoso porque debe realizar una gran cantidad de comparaciones e intercambios.

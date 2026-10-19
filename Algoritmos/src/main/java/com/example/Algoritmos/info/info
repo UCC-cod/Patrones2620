@@ -1,0 +1,44 @@
+https://coddy.tech/visualize/es
+
+Desarrollar una API que permita:
+
+Consultar todos los productos.
+Buscar un producto por nombre (Búsqueda Lineal).
+Buscar un producto en una lista ordenada (Búsqueda Binaria).
+Ordenar productos por precio (Bubble Sort o QuickSort).
+
+Búsqueda Lineal
+La búsqueda lineal consiste en recorrer los elementos de una colección uno a uno hasta encontrar el dato buscado o hasta llegar al final de la lista.
+Para encontrar un producto llamado "Teclado", el algoritmo comienza desde la primera posición y compara cada producto con el valor buscado. Si encuentra coincidencia, termina la búsqueda; de lo contrario, continúa con el siguiente elemento.
+Características:
+No requiere que los datos estén ordenados.
+Es sencilla de implementar.
+Funciona bien para colecciones pequeñas.
+A medida que aumenta la cantidad de datos, el tiempo de búsqueda también aumenta.
+Ventaja principal: Puede utilizarse con cualquier lista, independientemente de cómo estén organizados los datos.
+Desventaja principal: Puede llegar a revisar todos los elementos antes de encontrar el resultado.
+Complejidad temporal:
+Mejor caso: O(1)
+Caso promedio: O(n)
+Peor caso: O(n)
+
+Búsqueda Binaria
+La búsqueda binaria divide continuamente el conjunto de datos en dos partes para reducir la cantidad de comparaciones necesarias.
+Para que funcione correctamente, los datos deben estar previamente ordenados. El algoritmo comienza evaluando el elemento central. Dependiendo del resultado de la comparación, descarta la mitad izquierda o la mitad derecha de la colección. Este proceso se repite hasta encontrar el elemento o determinar que no existe.
+Por ejemplo, si se busca un producto llamado "Teclado" en una lista ordenada alfabéticamente, primero se compara con el elemento del centro. Si "Teclado" es mayor que el elemento central, se descarta toda la mitad izquierda; si es menor, se descarta la mitad derecha.
+Características:
+Requiere datos ordenados.
+Reduce significativamente el número de comparaciones.
+Es muy eficiente para grandes volúmenes de información.
+Ventaja principal: Realiza muchas menos comparaciones que la búsqueda lineal.
+Desventaja principal: Obliga a mantener la colección ordenada.
+Complejidad temporal:
+Mejor caso: O(1)
+Caso promedio: O(log n)
+Peor caso: O(log n)
+
+Ordenamiento por Burbuja (Bubble Sort):
+Es un algoritmo de ordenamiento que recorre repetidamente una lista comparando elementos adyacentes e intercambiándolos cuando están en el orden incorrecto. En cada recorrido, los elementos de mayor valor van desplazándose hacia el final de la lista, hasta que todos quedan ordenados.
+Ventajas: fácil de entender e implementar.
+Desventajas: poco eficiente para grandes cantidades de datos debido al elevado número de comparaciones e intercambios.
+Complejidad: O(n²) en promedio y en el peor caso.

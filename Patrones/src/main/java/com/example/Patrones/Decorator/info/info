@@ -1,0 +1,9 @@
+Supongamos que ya tienes una notificación básica: "Bienvenido al sistema"
+Pero el cliente puede solicitar:
+
+Notificación básica
+Notificación con log
+Notificación con auditoria
+Notificación con log y auditoria
+
+Sin modificar la clase original.

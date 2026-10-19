@@ -1,0 +1,9 @@
+Imagina que estás desarrollando una aplicación de notificaciones.
+Dependiendo de la configuración, la aplicación puede enviar mensajes por:
+
+Email
+SMS
+WhatsApp
+
+No quieres que el código cliente conozca cómo se crean estos objetos.
+Para ello utilizas el patrón Factory.

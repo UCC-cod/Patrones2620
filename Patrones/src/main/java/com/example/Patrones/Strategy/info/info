@@ -1,0 +1,23 @@
+¿Por qué Strategy?
+
+Porque viene muy relacionado con lo que ya hiciste con Factory:
+Factory responde: ¿qué objeto crear?
+Strategy responde: ¿qué algoritmo ejecutar?
+
+Caso práctico: Cálculo de descuentos
+Tienes una tienda online.
+Dependiendo del tipo de cliente, el descuento cambia:
+ESTUDIANTE → 10%
+DOCENTE → 15%
+EMPLEADO → 20%
+No quieres tener esto:
+if(tipo.equals("ESTUDIANTE")){
+    ...
+}
+else if(tipo.equals("DOCENTE")){
+    ...
+}
+else if(tipo.equals("EMPLEADO")){
+    ...
+}
+Utilizas Strategy.
